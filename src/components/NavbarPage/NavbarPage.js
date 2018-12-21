@@ -36,7 +36,7 @@ class NavbarPage extends React.Component {
                 <NavLink to="/portfolio">Portfolio</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="#!">Contact</NavLink> 
+                <NavLink to="/contact">Contact</NavLink> 
               </NavItem>
             </NavbarNav>
             
