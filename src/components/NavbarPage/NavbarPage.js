@@ -37,7 +37,7 @@ class NavbarPage extends React.Component {
               {!this.state.isWideEnough && <MDBNavbarToggler onClick={this.onClick} />}
               <MDBCollapse isOpen={this.state.collapse} navbar>
                 <MDBNavbarNav right>
-                  <MDBNavbarBrand active color="white" to="/about" >
+                  <MDBNavbarBrand  color="white" to="/about" >
                     <a style={{color:"white", fontSize:"18px"}}  href="#about">About</a>
                   </MDBNavbarBrand>
                   <MDBNavbarBrand  to="/portfolio">
