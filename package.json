@@ -21,12 +21,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -b master-d build"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://elhanang2.github.io/portfolio",
+  "homepage": "https://elhanang2.github.io/portfolio/",
   "browserslist": [
     ">0.2%",
     "not dead",
