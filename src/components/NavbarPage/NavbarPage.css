@@ -10,3 +10,12 @@
       background-color: #4285F4;
   }
 }
+.navbar-default, .navbar-custom{
+  font-family: Changa,sans-serif;
+  font-size: 14px !important;
+  color: white;
+  
+}
+.nav, .navbar{
+  color: white;
+}
